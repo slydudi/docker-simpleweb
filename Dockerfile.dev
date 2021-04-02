@@ -1,6 +1,6 @@
 #specify base image
 FROM node:12.18.1
-
+EXPOSE 8080
 
 #ustawienie domyslnego katalogu
 WORKDIR /usr/app
