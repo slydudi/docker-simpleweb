@@ -4,7 +4,7 @@ services:
     - docker
     
 before_install:
-    - docker build -t slydudi/docker-simpleweb -f Dockerfile.dev .
+    - docker build -t slydudi/docker-simpleweb .
     
 deploy:
     provider:   elasticbeanstalk
