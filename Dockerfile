@@ -1,6 +1,6 @@
 #specify base image
 FROM node:12.18.1 as builder
-
+adsad
 
 #ustawienie domyslnego katalogu
 WORKDIR /usr/app
