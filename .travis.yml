@@ -14,7 +14,7 @@ deploy:
     bucket_name: "elasticbeanstalk-us-east-2-309255062502"
     backet_path: "dockersimpleweb"
     on:
-        branch: master
+        branch: main
     access_key_id: $AWS_ACCESS_KEY
     secure_access_key: 
         secure: "$AWS_ACCESS_KEY"
