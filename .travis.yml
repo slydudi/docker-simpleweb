@@ -9,8 +9,8 @@ before_install:
 deploy:
     provider:   elasticbeanstalk
     region:     "us-east-2"
-    app:        "dockersimpleweb"
-    env:        "dockersimpleweb-env"
+    app:        "docker-simpleweb"
+    env:        "Dockersimpleweb-env"
     bucket_name: "elasticbeanstalk-us-east-2-309255062502"
     backet_path: "dockersimpleweb"
     on:
