@@ -5,7 +5,7 @@ services:
 before_install:
     - docker build -t slydudi/docker-simpleweb -f Dockerfile.dev .
     
-script:
-    - docker run slydudi/docker-simpleweb
-    
-     
+#script:
+#    - docker run slydudi/docker-simpleweb
+ 
+
